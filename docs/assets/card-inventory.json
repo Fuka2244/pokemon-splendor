@@ -1,0 +1,2535 @@
+{
+  "sourceZip": "D:\\download\\宝可梦璀璨宝石\\宝可梦璀璨宝石.zip",
+  "outputRoot": "F:\\splender-baokemeng\\assets\\source-cards",
+  "importedAt": "2026-08-24T14:29:37.058Z",
+  "imageCount": 96,
+  "formats": {
+    "png": 96
+  },
+  "folders": [
+    {
+      "sourceTopDirectory": "╥╗╝╢",
+      "normalizedFolder": "assets/source-cards/tier-1",
+      "imageCount": 35
+    },
+    {
+      "sourceTopDirectory": "╚²╝╢",
+      "normalizedFolder": "assets/source-cards/tier-3",
+      "imageCount": 15
+    },
+    {
+      "sourceTopDirectory": "╢■╝╢",
+      "normalizedFolder": "assets/source-cards/tier-2",
+      "imageCount": 30
+    },
+    {
+      "sourceTopDirectory": "┤½╦╡",
+      "normalizedFolder": "assets/source-cards/legendary",
+      "imageCount": 5
+    },
+    {
+      "sourceTopDirectory": "╟≥",
+      "normalizedFolder": "assets/source-cards/icons",
+      "imageCount": 6
+    },
+    {
+      "sourceTopDirectory": "╧í╙╨",
+      "normalizedFolder": "assets/source-cards/rare",
+      "imageCount": 5
+    }
+  ],
+  "files": [
+    {
+      "sourceIndex": 1,
+      "originalPath": "╥╗╝╢/╥╗ (1).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-001.png",
+      "format": "png",
+      "byteLength": 442200,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "小拳石",
+      "tier": 1,
+      "bonus": "blue",
+      "cost": {
+        "black": 1,
+        "yellow": 1,
+        "pink": 1,
+        "red": 1
+      },
+      "points": 0,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "隆隆石",
+      "evolutionRequirement": {
+        "black": 3
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 2,
+      "originalPath": "╥╗╝╢/╥╗ (10).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-002.png",
+      "format": "png",
+      "byteLength": 453812,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "小火龙",
+      "tier": 1,
+      "bonus": "blue",
+      "cost": {
+        "black": 3,
+        "pink": 2
+      },
+      "points": 1,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "火恐龙",
+      "evolutionRequirement": {
+        "yellow": 3
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 3,
+      "originalPath": "╥╗╝╢/╥╗ (11).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-003.png",
+      "format": "png",
+      "byteLength": 417284,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "小火龙",
+      "tier": 1,
+      "bonus": "blue",
+      "cost": {
+        "blue": 4
+      },
+      "points": 1,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "火恐龙",
+      "evolutionRequirement": {
+        "yellow": 3
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 4,
+      "originalPath": "╥╗╝╢/╥╗ (12).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-004.png",
+      "format": "png",
+      "byteLength": 474486,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "波波",
+      "tier": 1,
+      "bonus": "blue",
+      "cost": {
+        "yellow": 2,
+        "black": 1
+      },
+      "points": 0,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "比比鸟",
+      "evolutionRequirement": {
+        "red": 2
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 5,
+      "originalPath": "╥╗╝╢/╥╗ (13).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-005.png",
+      "format": "png",
+      "byteLength": 475355,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "波波",
+      "tier": 1,
+      "bonus": "blue",
+      "cost": {
+        "blue": 2,
+        "red": 2
+      },
+      "points": 0,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "比比鸟",
+      "evolutionRequirement": {
+        "red": 2
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 6,
+      "originalPath": "╥╗╝╢/╥╗ (14).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-006.png",
+      "format": "png",
+      "byteLength": 439968,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "走路草",
+      "tier": 1,
+      "bonus": "black",
+      "cost": {
+        "yellow": 2,
+        "black": 2
+      },
+      "points": 0,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "臭臭花",
+      "evolutionRequirement": {
+        "yellow": 2
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 7,
+      "originalPath": "╥╗╝╢/╥╗ (15).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-007.png",
+      "format": "png",
+      "byteLength": 536224,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "凯西",
+      "tier": 1,
+      "bonus": "pink",
+      "cost": {
+        "blue": 3,
+        "yellow": 2
+      },
+      "points": 1,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "勇基拉",
+      "evolutionRequirement": {
+        "red": 3
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 8,
+      "originalPath": "╥╗╝╢/╥╗ (16).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-008.png",
+      "format": "png",
+      "byteLength": 513723,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "独角虫",
+      "tier": 1,
+      "bonus": "black",
+      "cost": {
+        "red": 1,
+        "yellow": 1,
+        "pink": 1,
+        "blue": 1
+      },
+      "points": 0,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "铁壳蛹",
+      "evolutionRequirement": {
+        "red": 3
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 9,
+      "originalPath": "╥╗╝╢/╥╗ (17).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-009.png",
+      "format": "png",
+      "byteLength": 499280,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "绿毛虫",
+      "tier": 1,
+      "bonus": "pink",
+      "cost": {
+        "blue": 1,
+        "yellow": 1,
+        "red": 1,
+        "black": 1
+      },
+      "points": 0,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "铁甲蛹",
+      "evolutionRequirement": {
+        "blue": 3
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 10,
+      "originalPath": "╥╗╝╢/╥╗ (18).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-010.png",
+      "format": "png",
+      "byteLength": 468548,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "小火龙",
+      "tier": 1,
+      "bonus": "blue",
+      "cost": {
+        "black": 3,
+        "pink": 2
+      },
+      "points": 1,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "火恐龙",
+      "evolutionRequirement": {
+        "yellow": 3
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 11,
+      "originalPath": "╥╗╝╢/╥╗ (19).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-011.png",
+      "format": "png",
+      "byteLength": 447520,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "蚊香蝌蚪",
+      "tier": 1,
+      "bonus": "pink",
+      "cost": {
+        "blue": 2,
+        "yellow": 1
+      },
+      "points": 0,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "蚊香君",
+      "evolutionRequirement": {
+        "black": 2
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 12,
+      "originalPath": "╥╗╝╢/╥╗ (2).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-012.png",
+      "format": "png",
+      "byteLength": 441912,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "波波",
+      "tier": 1,
+      "bonus": "blue",
+      "cost": {
+        "yellow": 2,
+        "black": 1
+      },
+      "points": 0,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "比比鸟",
+      "evolutionRequirement": {
+        "red": 2
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 13,
+      "originalPath": "╥╗╝╢/╥╗ (20).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-013.png",
+      "format": "png",
+      "byteLength": 445952,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "波波",
+      "tier": 1,
+      "bonus": "blue",
+      "cost": {
+        "blue": 2,
+        "red": 2
+      },
+      "points": 0,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "比比鸟",
+      "evolutionRequirement": {
+        "red": 2
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 14,
+      "originalPath": "╥╗╝╢/╥╗ (21).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-014.png",
+      "format": "png",
+      "byteLength": 408614,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "波波",
+      "tier": 1,
+      "bonus": "blue",
+      "cost": {
+        "pink": 3
+      },
+      "points": 0,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "比比鸟",
+      "evolutionRequirement": {
+        "red": 2
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 15,
+      "originalPath": "╥╗╝╢/╥╗ (22).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-015.png",
+      "format": "png",
+      "byteLength": 369193,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "喇叭芽",
+      "tier": 1,
+      "bonus": "red",
+      "cost": {
+        "black": 2,
+        "blue": 1
+      },
+      "points": 0,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "口呆花",
+      "evolutionRequirement": {
+        "pink": 2
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 16,
+      "originalPath": "╥╗╝╢/╥╗ (23).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-016.png",
+      "format": "png",
+      "byteLength": 370887,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "凯西",
+      "tier": 1,
+      "bonus": "pink",
+      "cost": {
+        "pink": 4
+      },
+      "points": 1,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "勇基拉",
+      "evolutionRequirement": {
+        "red": 3
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 17,
+      "originalPath": "╥╗╝╢/╥╗ (24).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-017.png",
+      "format": "png",
+      "byteLength": 338180,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "绿毛虫",
+      "tier": 1,
+      "bonus": "pink",
+      "cost": {
+        "blue": 1,
+        "yellow": 1,
+        "red": 1,
+        "black": 1
+      },
+      "points": 0,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "铁甲蛹",
+      "evolutionRequirement": {
+        "blue": 3
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 18,
+      "originalPath": "╥╗╝╢/╥╗ (25).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-018.png",
+      "format": "png",
+      "byteLength": 548373,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "腕力",
+      "tier": 1,
+      "bonus": "red",
+      "cost": {
+        "blue": 1,
+        "yellow": 1,
+        "pink": 1,
+        "black": 1
+      },
+      "points": 0,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "豪力",
+      "evolutionRequirement": {
+        "yellow": 3
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 19,
+      "originalPath": "╥╗╝╢/╥╗ (26).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-019.png",
+      "format": "png",
+      "byteLength": 517752,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "蚊香蝌蚪",
+      "tier": 1,
+      "bonus": "pink",
+      "cost": {
+        "blue": 2,
+        "yellow": 1
+      },
+      "points": 0,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "蚊香君",
+      "evolutionRequirement": {
+        "black": 2
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 20,
+      "originalPath": "╥╗╝╢/╥╗ (27).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-020.png",
+      "format": "png",
+      "byteLength": 547548,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "杰尼龟",
+      "tier": 1,
+      "bonus": "red",
+      "cost": {
+        "pink": 3,
+        "blue": 2
+      },
+      "points": 1,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "卡咪龟",
+      "evolutionRequirement": {
+        "black": 3
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 21,
+      "originalPath": "╥╗╝╢/╥╗ (28).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-021.png",
+      "format": "png",
+      "byteLength": 507059,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "蚊香蝌蚪",
+      "tier": 1,
+      "bonus": "pink",
+      "cost": {
+        "red": 3
+      },
+      "points": 0,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "蚊香君",
+      "evolutionRequirement": {
+        "black": 2
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 22,
+      "originalPath": "╥╗╝╢/╥╗ (29).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-022.png",
+      "format": "png",
+      "byteLength": 607520,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "妙蛙种子",
+      "tier": 1,
+      "bonus": "yellow",
+      "cost": {
+        "red": 3,
+        "black": 2
+      },
+      "points": 1,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "妙蛙草",
+      "evolutionRequirement": {
+        "pink": 3
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 23,
+      "originalPath": "╥╗╝╢/╥╗ (3).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-023.png",
+      "format": "png",
+      "byteLength": 352175,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "喇叭芽",
+      "tier": 1,
+      "bonus": "red",
+      "cost": {
+        "pink": 2,
+        "red": 2
+      },
+      "points": 0,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "口呆花",
+      "evolutionRequirement": {
+        "pink": 2
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 24,
+      "originalPath": "╥╗╝╢/╥╗ (30).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-024.png",
+      "format": "png",
+      "byteLength": 574574,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "喇叭芽",
+      "tier": 1,
+      "bonus": "red",
+      "cost": {
+        "yellow": 3
+      },
+      "points": 0,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "口呆花",
+      "evolutionRequirement": {
+        "pink": 2
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 25,
+      "originalPath": "╥╗╝╢/╥╗ (31).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-025.png",
+      "format": "png",
+      "byteLength": 537942,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "腕力",
+      "tier": 1,
+      "bonus": "red",
+      "cost": {
+        "blue": 1,
+        "yellow": 1,
+        "pink": 1,
+        "black": 1
+      },
+      "points": 0,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "豪力",
+      "evolutionRequirement": {
+        "yellow": 3
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 26,
+      "originalPath": "╥╗╝╢/╥╗ (32).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-026.png",
+      "format": "png",
+      "byteLength": 506093,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "腕力",
+      "tier": 1,
+      "bonus": "red",
+      "cost": {
+        "yellow": 2,
+        "pink": 1,
+        "black": 1
+      },
+      "points": 0,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "豪力",
+      "evolutionRequirement": {
+        "yellow": 3
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 27,
+      "originalPath": "╥╗╝╢/╥╗ (33).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-027.png",
+      "format": "png",
+      "byteLength": 638701,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "杰尼龟",
+      "tier": 1,
+      "bonus": "red",
+      "cost": {
+        "pink": 3,
+        "blue": 2
+      },
+      "points": 1,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "卡咪龟",
+      "evolutionRequirement": {
+        "black": 3
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 28,
+      "originalPath": "╥╗╝╢/╥╗ (34).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-028.png",
+      "format": "png",
+      "byteLength": 645445,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "杰尼龟",
+      "tier": 1,
+      "bonus": "red",
+      "cost": {
+        "red": 4
+      },
+      "points": 1,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "卡咪龟",
+      "evolutionRequirement": {
+        "black": 3
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 29,
+      "originalPath": "╥╗╝╢/╥╗ (35).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-029.png",
+      "format": "png",
+      "byteLength": 606935,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "妙蛙种子",
+      "tier": 1,
+      "bonus": "yellow",
+      "cost": {
+        "red": 3,
+        "black": 2
+      },
+      "points": 1,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "妙蛙草",
+      "evolutionRequirement": {
+        "pink": 3
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 30,
+      "originalPath": "╥╗╝╢/╥╗ (4).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-030.png",
+      "format": "png",
+      "byteLength": 310466,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "妙蛙种子",
+      "tier": 1,
+      "bonus": "yellow",
+      "cost": {
+        "yellow": 4
+      },
+      "points": 1,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "妙蛙草",
+      "evolutionRequirement": {
+        "pink": 3
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 31,
+      "originalPath": "╥╗╝╢/╥╗ (5).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-031.png",
+      "format": "png",
+      "byteLength": 429818,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "鬼斯",
+      "tier": 1,
+      "bonus": "yellow",
+      "cost": {
+        "blue": 1,
+        "red": 1,
+        "pink": 1,
+        "black": 1
+      },
+      "points": 0,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "鬼斯通",
+      "evolutionRequirement": {
+        "black": 3
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 32,
+      "originalPath": "╥╗╝╢/╥╗ (6).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-032.png",
+      "format": "png",
+      "byteLength": 433234,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "鬼斯",
+      "tier": 1,
+      "bonus": "yellow",
+      "cost": {
+        "pink": 2,
+        "black": 1,
+        "red": 1
+      },
+      "points": 0,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "鬼斯通",
+      "evolutionRequirement": {
+        "black": 3
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 33,
+      "originalPath": "╥╗╝╢/╥╗ (7).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-033.png",
+      "format": "png",
+      "byteLength": 398928,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "尼多兰",
+      "tier": 1,
+      "bonus": "yellow",
+      "cost": {
+        "red": 2,
+        "pink": 1
+      },
+      "points": 0,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "尼多娜",
+      "evolutionRequirement": {
+        "blue": 2
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 34,
+      "originalPath": "╥╗╝╢/╥╗ (8).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-034.png",
+      "format": "png",
+      "byteLength": 434639,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "尼多兰",
+      "tier": 1,
+      "bonus": "yellow",
+      "cost": {
+        "blue": 2,
+        "yellow": 2
+      },
+      "points": 0,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "尼多娜",
+      "evolutionRequirement": {
+        "blue": 2
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 35,
+      "originalPath": "╥╗╝╢/╥╗ (9).png",
+      "normalizedPath": "assets/source-cards/tier-1/tier-1-035.png",
+      "format": "png",
+      "byteLength": 400094,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-1",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "尼多兰",
+      "tier": 1,
+      "bonus": "yellow",
+      "cost": {
+        "black": 3
+      },
+      "points": 0,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "尼多娜",
+      "evolutionRequirement": {
+        "blue": 2
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 37,
+      "originalPath": "╚²╝╢/ (1).png",
+      "normalizedPath": "assets/source-cards/tier-3/tier-3-001.png",
+      "format": "png",
+      "byteLength": 749997,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-3",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "妙蛙花",
+      "tier": 3,
+      "bonus": "yellow",
+      "cost": {
+        "red": 7,
+        "pink": 3
+      },
+      "points": 5,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 38,
+      "originalPath": "╚²╝╢/ (10).png",
+      "normalizedPath": "assets/source-cards/tier-3/tier-3-002.png",
+      "format": "png",
+      "byteLength": 493732,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-3",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "蚊香泳士",
+      "tier": 3,
+      "bonus": "pink",
+      "cost": {
+        "pink": 5,
+        "yellow": 2,
+        "red": 2
+      },
+      "points": 3,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 39,
+      "originalPath": "╚²╝╢/ (11).png",
+      "normalizedPath": "assets/source-cards/tier-3/tier-3-003.png",
+      "format": "png",
+      "byteLength": 726073,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-3",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "水箭龟",
+      "tier": 3,
+      "bonus": "red",
+      "cost": {
+        "blue": 7,
+        "black": 3
+      },
+      "points": 5,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 40,
+      "originalPath": "╚²╝╢/ (12).png",
+      "normalizedPath": "assets/source-cards/tier-3/tier-3-004.png",
+      "format": "png",
+      "byteLength": 543441,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-3",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "怪力",
+      "tier": 3,
+      "bonus": "red",
+      "cost": {
+        "yellow": 6,
+        "pink": 4
+      },
+      "points": 4,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 41,
+      "originalPath": "╚²╝╢/ (13).png",
+      "normalizedPath": "assets/source-cards/tier-3/tier-3-005.png",
+      "format": "png",
+      "byteLength": 523656,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-3",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "大食花",
+      "tier": 3,
+      "bonus": "red",
+      "cost": {
+        "red": 5,
+        "black": 2,
+        "blue": 2
+      },
+      "points": 3,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 42,
+      "originalPath": "╚²╝╢/ (14).png",
+      "normalizedPath": "assets/source-cards/tier-3/tier-3-006.png",
+      "format": "png",
+      "byteLength": 557239,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-3",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "耿鬼",
+      "tier": 3,
+      "bonus": "yellow",
+      "cost": {
+        "black": 6,
+        "blue": 4
+      },
+      "points": 4,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 43,
+      "originalPath": "╚²╝╢/ (15).png",
+      "normalizedPath": "assets/source-cards/tier-3/tier-3-007.png",
+      "format": "png",
+      "byteLength": 681280,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-3",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "尼多后",
+      "tier": 3,
+      "bonus": "yellow",
+      "cost": {
+        "yellow": 5,
+        "red": 2,
+        "pink": 2
+      },
+      "points": 3,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 44,
+      "originalPath": "╚²╝╢/ (2).png",
+      "normalizedPath": "assets/source-cards/tier-3/tier-3-008.png",
+      "format": "png",
+      "byteLength": 528391,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-3",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "快龙",
+      "tier": 3,
+      "bonus": "black",
+      "cost": {
+        "pink": 7,
+        "blue": 3
+      },
+      "points": 5,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 45,
+      "originalPath": "╚²╝╢/ (3).png",
+      "normalizedPath": "assets/source-cards/tier-3/tier-3-009.png",
+      "format": "png",
+      "byteLength": 552728,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-3",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "大针蜂",
+      "tier": 3,
+      "bonus": "black",
+      "cost": {
+        "pink": 6,
+        "yellow": 4
+      },
+      "points": 4,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 46,
+      "originalPath": "╚²╝╢/ (4).png",
+      "normalizedPath": "assets/source-cards/tier-3/tier-3-010.png",
+      "format": "png",
+      "byteLength": 654368,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-3",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "霸王花",
+      "tier": 3,
+      "bonus": "black",
+      "cost": {
+        "black": 5,
+        "blue": 2,
+        "pink": 2
+      },
+      "points": 3,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 47,
+      "originalPath": "╚²╝╢/ (5).png",
+      "normalizedPath": "assets/source-cards/tier-3/tier-3-011.png",
+      "format": "png",
+      "byteLength": 588492,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-3",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "喷火龙",
+      "tier": 3,
+      "bonus": "blue",
+      "cost": {
+        "black": 7,
+        "yellow": 3
+      },
+      "points": 5,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 48,
+      "originalPath": "╚²╝╢/ (6).png",
+      "normalizedPath": "assets/source-cards/tier-3/tier-3-012.png",
+      "format": "png",
+      "byteLength": 632799,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-3",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "隆隆岩",
+      "tier": 3,
+      "bonus": "blue",
+      "cost": {
+        "pink": 6,
+        "red": 4
+      },
+      "points": 4,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 49,
+      "originalPath": "╚²╝╢/ (7).png",
+      "normalizedPath": "assets/source-cards/tier-3/tier-3-013.png",
+      "format": "png",
+      "byteLength": 616111,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-3",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "大比鸟",
+      "tier": 3,
+      "bonus": "blue",
+      "cost": {
+        "blue": 5,
+        "black": 2,
+        "yellow": 2
+      },
+      "points": 3,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 50,
+      "originalPath": "╚²╝╢/ (8).png",
+      "normalizedPath": "assets/source-cards/tier-3/tier-3-014.png",
+      "format": "png",
+      "byteLength": 564783,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-3",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "胡地",
+      "tier": 3,
+      "bonus": "pink",
+      "cost": {
+        "yellow": 7,
+        "red": 3
+      },
+      "points": 5,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 51,
+      "originalPath": "╚²╝╢/ (9).png",
+      "normalizedPath": "assets/source-cards/tier-3/tier-3-015.png",
+      "format": "png",
+      "byteLength": 585718,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-3",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "巴大蝶",
+      "tier": 3,
+      "bonus": "pink",
+      "cost": {
+        "blue": 6,
+        "black": 4
+      },
+      "points": 4,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 53,
+      "originalPath": "╢■╝╢/╢■ (1).png",
+      "normalizedPath": "assets/source-cards/tier-2/tier-2-001.png",
+      "format": "png",
+      "byteLength": 509368,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-2",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "隆隆石",
+      "tier": 2,
+      "bonus": "blue",
+      "cost": {
+        "pink": 4,
+        "yellow": 2,
+        "black": 1
+      },
+      "points": 2,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 54,
+      "originalPath": "╢■╝╢/╢■ (10).png",
+      "normalizedPath": "assets/source-cards/tier-2/tier-2-002.png",
+      "format": "png",
+      "byteLength": 445128,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-2",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "火恐龙",
+      "tier": 2,
+      "bonus": "blue",
+      "cost": {
+        "blue": 6
+      },
+      "points": 3,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "喷火龙",
+      "evolutionRequirement": {
+        "red": 4
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 55,
+      "originalPath": "╢■╝╢/╢■ (11).png",
+      "normalizedPath": "assets/source-cards/tier-2/tier-2-003.png",
+      "format": "png",
+      "byteLength": 600854,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-2",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "比比鸟",
+      "tier": 2,
+      "bonus": "blue",
+      "cost": {
+        "red": 3,
+        "yellow": 2,
+        "pink": 2
+      },
+      "points": 1,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "大比鸟",
+      "evolutionRequirement": {
+        "red": 4
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 56,
+      "originalPath": "╢■╝╢/╢■ (12).png",
+      "normalizedPath": "assets/source-cards/tier-2/tier-2-004.png",
+      "format": "png",
+      "byteLength": 600262,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-2",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "哈克龙",
+      "tier": 2,
+      "bonus": "black",
+      "cost": {
+        "black": 6
+      },
+      "points": 3,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "快龙",
+      "evolutionRequirement": {
+        "yellow": 4
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 57,
+      "originalPath": "╢■╝╢/╢■ (13).png",
+      "normalizedPath": "assets/source-cards/tier-2/tier-2-005.png",
+      "format": "png",
+      "byteLength": 647863,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-2",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "勇基拉",
+      "tier": 2,
+      "bonus": "pink",
+      "cost": {
+        "red": 4,
+        "yellow": 4,
+        "black": 1
+      },
+      "points": 3,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "胡地",
+      "evolutionRequirement": {
+        "black": 4
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 58,
+      "originalPath": "╢■╝╢/╢■ (14).png",
+      "normalizedPath": "assets/source-cards/tier-2/tier-2-006.png",
+      "format": "png",
+      "byteLength": 618973,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-2",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "臭臭花",
+      "tier": 2,
+      "bonus": "black",
+      "cost": {
+        "black": 3,
+        "blue": 2,
+        "red": 2
+      },
+      "points": 1,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "霸王花",
+      "evolutionRequirement": {
+        "yellow": 4
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 59,
+      "originalPath": "╢■╝╢/╢■ (15).png",
+      "normalizedPath": "assets/source-cards/tier-2/tier-2-007.png",
+      "format": "png",
+      "byteLength": 479981,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-2",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "铁壳蛹",
+      "tier": 2,
+      "bonus": "black",
+      "cost": {
+        "red": 4,
+        "blue": 2,
+        "pink": 1
+      },
+      "points": 2,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "大针蜂",
+      "evolutionRequirement": {
+        "pink": 3
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 60,
+      "originalPath": "╢■╝╢/╢■ (16).png",
+      "normalizedPath": "assets/source-cards/tier-2/tier-2-008.png",
+      "format": "png",
+      "byteLength": 443405,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-2",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "铁壳蛹",
+      "tier": 2,
+      "bonus": "black",
+      "cost": {
+        "black": 5,
+        "yellow": 2
+      },
+      "points": 2,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "大针蜂",
+      "evolutionRequirement": {
+        "pink": 3
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 61,
+      "originalPath": "╢■╝╢/╢■ (17).png",
+      "normalizedPath": "assets/source-cards/tier-2/tier-2-009.png",
+      "format": "png",
+      "byteLength": 559234,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-2",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "火恐龙",
+      "tier": 2,
+      "bonus": "blue",
+      "cost": {
+        "yellow": 4,
+        "black": 4,
+        "red": 1
+      },
+      "points": 3,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "喷火龙",
+      "evolutionRequirement": {
+        "red": 4
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 62,
+      "originalPath": "╢■╝╢/╢■ (18).png",
+      "normalizedPath": "assets/source-cards/tier-2/tier-2-010.png",
+      "format": "png",
+      "byteLength": 565610,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-2",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "火恐龙",
+      "tier": 2,
+      "bonus": "blue",
+      "cost": {
+        "blue": 6
+      },
+      "points": 3,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "喷火龙",
+      "evolutionRequirement": {
+        "red": 4
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 63,
+      "originalPath": "╢■╝╢/╢■ (19).png",
+      "normalizedPath": "assets/source-cards/tier-2/tier-2-011.png",
+      "format": "png",
+      "byteLength": 621854,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-2",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "比比鸟",
+      "tier": 2,
+      "bonus": "blue",
+      "cost": {
+        "red": 3,
+        "yellow": 2,
+        "pink": 2
+      },
+      "points": 1,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "大比鸟",
+      "evolutionRequirement": {
+        "red": 4
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 64,
+      "originalPath": "╢■╝╢/╢■ (2).png",
+      "normalizedPath": "assets/source-cards/tier-2/tier-2-012.png",
+      "format": "png",
+      "byteLength": 501718,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-2",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "比比鸟",
+      "tier": 2,
+      "bonus": "blue",
+      "cost": {
+        "blue": 3,
+        "pink": 2,
+        "black": 2
+      },
+      "points": 1,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "大比鸟",
+      "evolutionRequirement": {
+        "red": 4
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 65,
+      "originalPath": "╢■╝╢/╢■ (20).png",
+      "normalizedPath": "assets/source-cards/tier-2/tier-2-013.png",
+      "format": "png",
+      "byteLength": 593108,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-2",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "勇基拉",
+      "tier": 2,
+      "bonus": "pink",
+      "cost": {
+        "red": 4,
+        "yellow": 4,
+        "black": 1
+      },
+      "points": 3,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "胡地",
+      "evolutionRequirement": {
+        "black": 4
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 66,
+      "originalPath": "╢■╝╢/╢■ (21).png",
+      "normalizedPath": "assets/source-cards/tier-2/tier-2-014.png",
+      "format": "png",
+      "byteLength": 647594,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-2",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "勇基拉",
+      "tier": 2,
+      "bonus": "pink",
+      "cost": {
+        "pink": 6
+      },
+      "points": 3,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "胡地",
+      "evolutionRequirement": {
+        "black": 4
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 67,
+      "originalPath": "╢■╝╢/╢■ (22).png",
+      "normalizedPath": "assets/source-cards/tier-2/tier-2-015.png",
+      "format": "png",
+      "byteLength": 593872,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-2",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "铁甲蛹",
+      "tier": 2,
+      "bonus": "pink",
+      "cost": {
+        "blue": 4,
+        "red": 2,
+        "yellow": 1
+      },
+      "points": 2,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "巴大蝶",
+      "evolutionRequirement": {
+        "yellow": 3
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 68,
+      "originalPath": "╢■╝╢/╢■ (23).png",
+      "normalizedPath": "assets/source-cards/tier-2/tier-2-016.png",
+      "format": "png",
+      "byteLength": 500568,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-2",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "铁甲蛹",
+      "tier": 2,
+      "bonus": "pink",
+      "cost": {
+        "pink": 5,
+        "black": 2
+      },
+      "points": 2,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "巴大蝶",
+      "evolutionRequirement": {
+        "yellow": 3
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 69,
+      "originalPath": "╢■╝╢/╢■ (24).png",
+      "normalizedPath": "assets/source-cards/tier-2/tier-2-017.png",
+      "format": "png",
+      "byteLength": 497604,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-2",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "蚊香君",
+      "tier": 2,
+      "bonus": "pink",
+      "cost": {
+        "black": 3,
+        "blue": 2,
+        "red": 2
+      },
+      "points": 1,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "蚊香泳士",
+      "evolutionRequirement": {
+        "black": 4
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 70,
+      "originalPath": "╢■╝╢/╢■ (25).png",
+      "normalizedPath": "assets/source-cards/tier-2/tier-2-018.png",
+      "format": "png",
+      "byteLength": 549717,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-2",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "蚊香君",
+      "tier": 2,
+      "bonus": "pink",
+      "cost": {
+        "pink": 3,
+        "blue": 2,
+        "yellow": 2
+      },
+      "points": 1,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "蚊香泳士",
+      "evolutionRequirement": {
+        "black": 4
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 71,
+      "originalPath": "╢■╝╢/╢■ (26).png",
+      "normalizedPath": "assets/source-cards/tier-2/tier-2-019.png",
+      "format": "png",
+      "byteLength": 540941,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-2",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "豪力",
+      "tier": 2,
+      "bonus": "red",
+      "cost": {
+        "yellow": 4,
+        "black": 2,
+        "blue": 1
+      },
+      "points": 2,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "怪力",
+      "evolutionRequirement": {
+        "blue": 3
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 72,
+      "originalPath": "╢■╝╢/╢■ (27).png",
+      "normalizedPath": "assets/source-cards/tier-2/tier-2-020.png",
+      "format": "png",
+      "byteLength": 772337,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-2",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "豪力",
+      "tier": 2,
+      "bonus": "red",
+      "cost": {
+        "red": 5,
+        "pink": 2
+      },
+      "points": 2,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "怪力",
+      "evolutionRequirement": {
+        "blue": 3
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 73,
+      "originalPath": "╢■╝╢/╢■ (28).png",
+      "normalizedPath": "assets/source-cards/tier-2/tier-2-021.png",
+      "format": "png",
+      "byteLength": 725989,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-2",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "卡咪龟",
+      "tier": 2,
+      "bonus": "red",
+      "cost": {
+        "blue": 4,
+        "black": 4,
+        "pink": 1
+      },
+      "points": 3,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "水箭龟",
+      "evolutionRequirement": {
+        "pink": 4
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 74,
+      "originalPath": "╢■╝╢/╢■ (29).png",
+      "normalizedPath": "assets/source-cards/tier-2/tier-2-022.png",
+      "format": "png",
+      "byteLength": 630677,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-2",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "卡咪龟",
+      "tier": 2,
+      "bonus": "red",
+      "cost": {
+        "red": 6
+      },
+      "points": 3,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "水箭龟",
+      "evolutionRequirement": {
+        "pink": 4
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 75,
+      "originalPath": "╢■╝╢/╢■ (3).png",
+      "normalizedPath": "assets/source-cards/tier-2/tier-2-023.png",
+      "format": "png",
+      "byteLength": 452660,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-2",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "口呆花",
+      "tier": 2,
+      "bonus": "red",
+      "cost": {
+        "pink": 3,
+        "yellow": 2,
+        "black": 2
+      },
+      "points": 1,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "大食花",
+      "evolutionRequirement": {
+        "pink": 4
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 76,
+      "originalPath": "╢■╝╢/╢■ (30).png",
+      "normalizedPath": "assets/source-cards/tier-2/tier-2-024.png",
+      "format": "png",
+      "byteLength": 631363,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-2",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "口呆花",
+      "tier": 2,
+      "bonus": "red",
+      "cost": {
+        "red": 3,
+        "black": 2,
+        "yellow": 2
+      },
+      "points": 1,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "大食花",
+      "evolutionRequirement": {
+        "pink": 4
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 77,
+      "originalPath": "╢■╝╢/╢■ (4).png",
+      "normalizedPath": "assets/source-cards/tier-2/tier-2-025.png",
+      "format": "png",
+      "byteLength": 401361,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-2",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "鬼斯通",
+      "tier": 2,
+      "bonus": "yellow",
+      "cost": {
+        "black": 4,
+        "pink": 2,
+        "red": 1
+      },
+      "points": 2,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "耿鬼",
+      "evolutionRequirement": {
+        "red": 3
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 78,
+      "originalPath": "╢■╝╢/╢■ (5).png",
+      "normalizedPath": "assets/source-cards/tier-2/tier-2-026.png",
+      "format": "png",
+      "byteLength": 585091,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-2",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "鬼斯通",
+      "tier": 2,
+      "bonus": "yellow",
+      "cost": {
+        "yellow": 5,
+        "blue": 2
+      },
+      "points": 2,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "耿鬼",
+      "evolutionRequirement": {
+        "red": 3
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 79,
+      "originalPath": "╢■╝╢/╢■ (6).png",
+      "normalizedPath": "assets/source-cards/tier-2/tier-2-027.png",
+      "format": "png",
+      "byteLength": 580639,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-2",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "妙蛙草",
+      "tier": 2,
+      "bonus": "yellow",
+      "cost": {
+        "red": 4,
+        "pink": 4,
+        "blue": 1
+      },
+      "points": 3,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "妙蛙花",
+      "evolutionRequirement": {
+        "blue": 4
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 80,
+      "originalPath": "╢■╝╢/╢■ (7).png",
+      "normalizedPath": "assets/source-cards/tier-2/tier-2-028.png",
+      "format": "png",
+      "byteLength": 523318,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-2",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "妙蛙草",
+      "tier": 2,
+      "bonus": "yellow",
+      "cost": {
+        "yellow": 6
+      },
+      "points": 3,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "妙蛙花",
+      "evolutionRequirement": {
+        "blue": 4
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 81,
+      "originalPath": "╢■╝╢/╢■ (8).png",
+      "normalizedPath": "assets/source-cards/tier-2/tier-2-029.png",
+      "format": "png",
+      "byteLength": 490572,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-2",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "尼多娜",
+      "tier": 2,
+      "bonus": "yellow",
+      "cost": {
+        "blue": 3,
+        "pink": 2,
+        "black": 2
+      },
+      "points": 1,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "尼多后",
+      "evolutionRequirement": {
+        "blue": 4
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 82,
+      "originalPath": "╢■╝╢/╢■ (9).png",
+      "normalizedPath": "assets/source-cards/tier-2/tier-2-030.png",
+      "format": "png",
+      "byteLength": 504898,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "tier-2",
+      "recognitionStatus": "confirmed",
+      "cardType": "ordinary",
+      "pokemonName": "尼多娜",
+      "tier": 2,
+      "bonus": "yellow",
+      "cost": {
+        "yellow": 3,
+        "pink": 2,
+        "red": 2
+      },
+      "points": 1,
+      "isLowerEvolutionCard": true,
+      "evolvesTo": "尼多后",
+      "evolutionRequirement": {
+        "blue": 4
+      },
+      "isRarePokemon": false
+    },
+    {
+      "sourceIndex": 84,
+      "originalPath": "┤½╦╡/ (1).png",
+      "normalizedPath": "assets/source-cards/legendary/legendary-001.png",
+      "format": "png",
+      "byteLength": 524480,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "legendary",
+      "recognitionStatus": "confirmed",
+      "cardType": "legendary",
+      "pokemonName": "超梦",
+      "tier": null,
+      "bonus": {
+        "black": 2
+      },
+      "cost": {},
+      "points": 2,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "requirement": {
+        "pink": 3,
+        "red": 3,
+        "blue": 3
+      },
+      "masterCost": 1,
+      "isRarePokemon": true
+    },
+    {
+      "sourceIndex": 85,
+      "originalPath": "┤½╦╡/ (2).png",
+      "normalizedPath": "assets/source-cards/legendary/legendary-002.png",
+      "format": "png",
+      "byteLength": 416888,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "legendary",
+      "recognitionStatus": "confirmed",
+      "cardType": "legendary",
+      "pokemonName": "梦幻",
+      "tier": null,
+      "bonus": {
+        "blue": 2
+      },
+      "cost": {},
+      "points": 2,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "requirement": {
+        "black": 3,
+        "yellow": 3,
+        "red": 3
+      },
+      "masterCost": 1,
+      "isRarePokemon": true
+    },
+    {
+      "sourceIndex": 86,
+      "originalPath": "┤½╦╡/ (3).png",
+      "normalizedPath": "assets/source-cards/legendary/legendary-003.png",
+      "format": "png",
+      "byteLength": 466347,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "legendary",
+      "recognitionStatus": "confirmed",
+      "cardType": "legendary",
+      "pokemonName": "火焰鸟",
+      "tier": null,
+      "bonus": {
+        "pink": 2
+      },
+      "cost": {},
+      "points": 2,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "requirement": {
+        "blue": 3,
+        "yellow": 3,
+        "black": 3
+      },
+      "masterCost": 1,
+      "isRarePokemon": true
+    },
+    {
+      "sourceIndex": 87,
+      "originalPath": "┤½╦╡/ (4).png",
+      "normalizedPath": "assets/source-cards/legendary/legendary-004.png",
+      "format": "png",
+      "byteLength": 532328,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "legendary",
+      "recognitionStatus": "confirmed",
+      "cardType": "legendary",
+      "pokemonName": "闪电鸟",
+      "tier": null,
+      "bonus": {
+        "red": 2
+      },
+      "cost": {},
+      "points": 2,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "requirement": {
+        "pink": 3,
+        "blue": 3,
+        "yellow": 3
+      },
+      "masterCost": 1,
+      "isRarePokemon": true
+    },
+    {
+      "sourceIndex": 88,
+      "originalPath": "┤½╦╡/ (5).png",
+      "normalizedPath": "assets/source-cards/legendary/legendary-005.png",
+      "format": "png",
+      "byteLength": 637506,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "legendary",
+      "recognitionStatus": "confirmed",
+      "cardType": "legendary",
+      "pokemonName": "急冻鸟",
+      "tier": null,
+      "bonus": {
+        "yellow": 2
+      },
+      "cost": {},
+      "points": 2,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "requirement": {
+        "red": 3,
+        "pink": 3,
+        "black": 3
+      },
+      "masterCost": 1,
+      "isRarePokemon": true
+    },
+    {
+      "sourceIndex": 90,
+      "originalPath": "╟≥/╧╚╗·╟≥.png",
+      "normalizedPath": "assets/source-cards/icons/icon-001.png",
+      "format": "png",
+      "byteLength": 364150,
+      "width": 700,
+      "height": 700,
+      "inferredGroup": "icons",
+      "recognitionStatus": "confirmed",
+      "cardType": "icon",
+      "pokemonName": null,
+      "tier": null,
+      "bonus": null,
+      "cost": {},
+      "points": null,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "isRarePokemon": false,
+      "iconName": "精灵球图标"
+    },
+    {
+      "sourceIndex": 91,
+      "originalPath": "╟≥/┤≤╩ª╟≥.png",
+      "normalizedPath": "assets/source-cards/icons/icon-002.png",
+      "format": "png",
+      "byteLength": 355642,
+      "width": 700,
+      "height": 700,
+      "inferredGroup": "icons",
+      "recognitionStatus": "confirmed",
+      "cardType": "icon",
+      "pokemonName": null,
+      "tier": null,
+      "bonus": null,
+      "cost": {},
+      "points": null,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "isRarePokemon": false,
+      "iconName": "万能球"
+    },
+    {
+      "sourceIndex": 92,
+      "originalPath": "╟≥/╓╬╙·╟≥.png",
+      "normalizedPath": "assets/source-cards/icons/icon-003.png",
+      "format": "png",
+      "byteLength": 350057,
+      "width": 700,
+      "height": 700,
+      "inferredGroup": "icons",
+      "recognitionStatus": "confirmed",
+      "cardType": "icon",
+      "pokemonName": null,
+      "tier": null,
+      "bonus": null,
+      "cost": {},
+      "points": null,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "isRarePokemon": false,
+      "iconName": "精灵球图标"
+    },
+    {
+      "sourceIndex": 93,
+      "originalPath": "╟≥/╛½┴Θ╟≥.png",
+      "normalizedPath": "assets/source-cards/icons/icon-004.png",
+      "format": "png",
+      "byteLength": 296681,
+      "width": 700,
+      "height": 700,
+      "inferredGroup": "icons",
+      "recognitionStatus": "confirmed",
+      "cardType": "icon",
+      "pokemonName": null,
+      "tier": null,
+      "bonus": null,
+      "cost": {},
+      "points": null,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "isRarePokemon": false,
+      "iconName": "精灵球图标"
+    },
+    {
+      "sourceIndex": 94,
+      "originalPath": "╟≥/│¼╟┐╟≥.png",
+      "normalizedPath": "assets/source-cards/icons/icon-005.png",
+      "format": "png",
+      "byteLength": 297394,
+      "width": 700,
+      "height": 700,
+      "inferredGroup": "icons",
+      "recognitionStatus": "confirmed",
+      "cardType": "icon",
+      "pokemonName": null,
+      "tier": null,
+      "bonus": null,
+      "cost": {},
+      "points": null,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "isRarePokemon": false,
+      "iconName": "精灵球图标"
+    },
+    {
+      "sourceIndex": 95,
+      "originalPath": "╟≥/╕▀╝╢╟≥.png",
+      "normalizedPath": "assets/source-cards/icons/icon-006.png",
+      "format": "png",
+      "byteLength": 341018,
+      "width": 700,
+      "height": 700,
+      "inferredGroup": "icons",
+      "recognitionStatus": "confirmed",
+      "cardType": "icon",
+      "pokemonName": null,
+      "tier": null,
+      "bonus": null,
+      "cost": {},
+      "points": null,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "isRarePokemon": false,
+      "iconName": "精灵球图标"
+    },
+    {
+      "sourceIndex": 97,
+      "originalPath": "╧í╙╨/ (1).png",
+      "normalizedPath": "assets/source-cards/rare/rare-001.png",
+      "format": "png",
+      "byteLength": 457906,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "rare",
+      "recognitionStatus": "confirmed",
+      "cardType": "rare",
+      "pokemonName": "化石翼龙",
+      "tier": null,
+      "bonus": {
+        "yellow": 2
+      },
+      "cost": {},
+      "points": 0,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "requirement": {
+        "blue": 3,
+        "pink": 2
+      },
+      "masterCost": 1,
+      "isRarePokemon": true
+    },
+    {
+      "sourceIndex": 98,
+      "originalPath": "╧í╙╨/ (2).png",
+      "normalizedPath": "assets/source-cards/rare/rare-002.png",
+      "format": "png",
+      "byteLength": 519337,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "rare",
+      "recognitionStatus": "confirmed",
+      "cardType": "rare",
+      "pokemonName": "伊布",
+      "tier": null,
+      "bonus": {
+        "black": 2
+      },
+      "cost": {},
+      "points": 0,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "requirement": {
+        "yellow": 3,
+        "red": 2
+      },
+      "masterCost": 1,
+      "isRarePokemon": true
+    },
+    {
+      "sourceIndex": 99,
+      "originalPath": "╧í╙╨/ (3).png",
+      "normalizedPath": "assets/source-cards/rare/rare-003.png",
+      "format": "png",
+      "byteLength": 384741,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "rare",
+      "recognitionStatus": "confirmed",
+      "cardType": "rare",
+      "pokemonName": "百变怪",
+      "tier": null,
+      "bonus": {
+        "blue": 2
+      },
+      "cost": {},
+      "points": 0,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "requirement": {
+        "pink": 3,
+        "yellow": 2
+      },
+      "masterCost": 1,
+      "isRarePokemon": true
+    },
+    {
+      "sourceIndex": 100,
+      "originalPath": "╧í╙╨/ (4).png",
+      "normalizedPath": "assets/source-cards/rare/rare-004.png",
+      "format": "png",
+      "byteLength": 487490,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "rare",
+      "recognitionStatus": "confirmed",
+      "cardType": "rare",
+      "pokemonName": "卡比兽",
+      "tier": null,
+      "bonus": {
+        "pink": 2
+      },
+      "cost": {},
+      "points": 0,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "requirement": {
+        "red": 3,
+        "black": 2
+      },
+      "masterCost": 1,
+      "isRarePokemon": true
+    },
+    {
+      "sourceIndex": 101,
+      "originalPath": "╧í╙╨/ (5).png",
+      "normalizedPath": "assets/source-cards/rare/rare-005.png",
+      "format": "png",
+      "byteLength": 563822,
+      "width": 900,
+      "height": 1200,
+      "inferredGroup": "rare",
+      "recognitionStatus": "confirmed",
+      "cardType": "rare",
+      "pokemonName": "拉普拉斯",
+      "tier": null,
+      "bonus": {
+        "red": 2
+      },
+      "cost": {},
+      "points": 0,
+      "isLowerEvolutionCard": false,
+      "evolvesTo": null,
+      "evolutionRequirement": null,
+      "requirement": {
+        "black": 3,
+        "blue": 2
+      },
+      "masterCost": 1,
+      "isRarePokemon": true
+    }
+  ]
+}

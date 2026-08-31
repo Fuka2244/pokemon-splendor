@@ -1,0 +1,21 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "pokemon-board-game",
+  "account_id": "7f054ffaace479426b3b57913b16630d",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-08-27",
+  "workers_dev": true,
+  "routes": [
+    { "pattern": "spldzy.dpdns.org", "custom_domain": true }
+  ],
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "run_worker_first": ["/", "/api/*"],
+    "html_handling": "none"
+  },
+  "durable_objects": {
+    "bindings": [{ "name": "ROOMS", "class_name": "PokemonRoom" }]
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["PokemonRoom"] }]
+}

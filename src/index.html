@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f5f4ee" />
+    <meta name="description" content="桌游小馆：挑一款喜欢的桌游，与朋友一起开局。" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><rect x=%224%22 y=%224%22 width=%2256%22 height=%2256%22 rx=%2212%22 fill=%22%23294539%22/><g fill=%22%23f5f4ee%22><circle cx=%2220%22 cy=%2220%22 r=%225%22/><circle cx=%2244%22 cy=%2220%22 r=%225%22/><circle cx=%2232%22 cy=%2232%22 r=%225%22/><circle cx=%2220%22 cy=%2244%22 r=%225%22/><circle cx=%2244%22 cy=%2244%22 r=%225%22/></g></svg>" />
+    <link rel="stylesheet" href="./hub/styles.css" />
+    <title>桌游小馆 · 找朋友，开一桌</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#games">跳到游戏列表</a>
+    <header class="site-header page-width">
+      <a class="brand" href="./" aria-label="桌游小馆首页"><span class="brand-die" aria-hidden="true">⚄</span><span>桌游小馆<small>THE BOARD GAME CLUB</small></span></a>
+      <nav aria-label="主要导航"><a href="#games">挑选桌游</a><a href="#about">关于小馆</a></nav>
+      <span class="header-note">把朋友聚在一张桌上</span>
+    </header>
+    <main class="page-width">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy"><p class="eyebrow"><span></span> 好朋友，好游戏，好时光</p><h1 id="hero-title">今晚，<br>开哪一桌<span class="hero-question">？</span></h1><p class="hero-description">是来一场心照不宣的魔法博弈，<br>还是开启收集宝可梦的旅程？选好游戏，就入座吧。</p><a class="hero-link" href="#games">看看桌上有什么 <span aria-hidden="true">↓</span></a></div>
+        <div class="hero-table" aria-hidden="true"><div class="table-outline"></div><div class="table-label">GOOD TIMES<br>START AT THE TABLE.</div><div class="table-card card-one"><span>♧</span><b>PLAY</b><span>♧</span></div><div class="table-card card-two"><span>◇</span><b>TOGETHER</b><span>◇</span></div><div class="table-die">⚄</div><div class="table-chip chip-one"></div><div class="table-chip chip-two"></div><span class="table-spark">✳</span></div>
+      </section>
+      <section class="collection" id="games" aria-labelledby="collection-title">
+        <div class="collection-heading"><div><p class="eyebrow">THE COLLECTION</p><h2 id="collection-title">挑一款，开一局 <span id="game-count"></span></h2></div><label class="search"><span aria-hidden="true">⌕</span><input id="game-search" type="search" placeholder="搜索游戏或玩法" aria-label="搜索游戏或玩法" maxlength="100" /></label></div>
+        <div class="collection-toolbar"><div class="filters" role="group" aria-label="按游戏模式筛选"><button type="button" data-mode="all" aria-pressed="true">全部桌游</button><button type="button" data-mode="online" aria-pressed="false">联机对战</button><button type="button" data-mode="local" aria-pressed="false">本地体验</button></div><p id="result-count" role="status" aria-live="polite"></p></div>
+        <div class="game-grid" id="game-grid"></div>
+        <div class="empty-state" id="empty-state" hidden><span aria-hidden="true">◇</span><h3>暂时没有找到这款桌游</h3><p>试试其他名字，或看看全部桌游。</p><button type="button" id="clear-filters">查看全部桌游</button></div>
+        <noscript><p class="noscript-note">启用 JavaScript 可浏览和游玩桌游。游戏入口：<a href="./pokemon.html">宝可梦璀璨宝石</a> 或 <a href="https://spldzy.dpdns.org/" target="_blank" rel="noopener noreferrer">出包魔法师（新标签页）</a>。</p></noscript>
+      </section>
+      <aside class="about" id="about"><div class="about-icon" aria-hidden="true">＋</div><div><h2>小馆不大，牌桌还在增加。</h2><p>这里是大家的桌游入口。每款游戏独立运行，更多好玩的，慢慢上桌。</p></div><span>下一桌，敬请期待 <span aria-hidden="true">↗</span></span></aside>
+    </main>
+    <footer class="site-footer page-width"><span>桌游小馆 <span class="footer-dot">·</span> 为相聚留一张桌</span><span>选游戏 → 进入游戏 → 和朋友开局</span></footer>
+    <script type="module" src="./hub/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+// The hub only links to games; each game owns its rooms, sessions and rules.
+// Add one entry here to list a new game. See docs/game-hub.md for the fields.
+export const games = [
+  {
+    id: "hidden-spell",
+    title: "出包魔法师",
+    subtitle: "HIDDEN SPELL",
+    description: "看得见别人的咒语，却猜不透自己的下一手。叫上朋友，在试探与推理之间来一场魔法对决。",
+    players: "2–4 人",
+    mode: "online",
+    status: "联机对战",
+    tags: ["隐藏手牌", "推理博弈"],
+    href: "https://hidden-spell-game.hidden-spell-worker.workers.dev/",
+    localHref: "http://127.0.0.1:8787/",
+    external: true,
+    action: "进入游戏",
+    note: "前往独立游戏站点 · 在新标签页打开",
+    cover: "spell",
+  },
+  {
+    id: "pokemon-splendor",
+    title: "宝可梦璀璨宝石",
+    subtitle: "POKÉMON SPLENDOR",
+    description: "收集精灵球，捕捉心仪的宝可梦。积累永久折扣，在一次次选择中构筑你的训练家队伍。",
+    players: "2–4 人",
+    mode: "online",
+    status: "联机对战",
+    tags: ["资源构筑", "宝可梦收集"],
+    href: "./pokemon.html",
+    external: false,
+    action: "进入游戏",
+    note: "创建房间或邀请加入 · 也支持本地体验",
+    cover: "pokemon",
+    images: [
+      "./assets/source-cards/tier-1/tier-1-002.png",
+      "./assets/source-cards/legendary/legendary-001.png",
+      "./assets/source-cards/tier-1/tier-1-004.png",
+    ],
+  },
+];

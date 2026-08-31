@@ -1,0 +1,24 @@
+.online-lobby { width: min(560px, calc(100% - 32px)); margin: 48px auto; padding: 28px; }
+.online-lobby > a { color: var(--accent); text-decoration: none; }
+.online-eyebrow { margin-top: 24px; font-size: 12px; letter-spacing: 1px; color: var(--muted); }
+.online-lobby h1 { margin: 8px 0 16px; }
+.online-lobby p { line-height: 1.7; }
+#online-entry { display: grid; gap: 14px; margin-top: 24px; }
+#online-entry label { display: grid; gap: 7px; font-size: 13px; font-weight: 600; }
+#online-entry input, #online-entry select { padding: 10px; border: 1px solid var(--line); border-radius: 6px; font: inherit; background: var(--panel); color: inherit; width: 100%; }
+#online-entry input:focus-visible, #online-entry select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.join-divider { border-top: 1px solid var(--line); padding-top: 18px; margin-top: 6px; color: var(--muted); font-size: 13px; }
+.online-help { margin-top: 22px; font-size: 13px; color: var(--muted); }
+.online-help a { color: var(--accent); display: block; }
+.network-toolbar { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
+.connection { font-size: 13px; color: var(--muted); }
+.connection::before { content: "●"; margin-right: 6px; }
+.connection.connected { color: var(--accent); }
+.network-error { font-size: 13px; color: #9a3f2e; background: #fff3eb; padding: 8px 10px; border-radius: 6px; overflow-wrap: anywhere; }
+.room-members { list-style: none; padding: 0; margin: 22px 0; }
+.room-members li { display: flex; justify-content: space-between; gap: 14px; padding: 14px 0; border-bottom: 1px solid var(--line); }
+.room-members b { overflow-wrap: anywhere; }
+.room-members span { color: var(--muted); font-size: 13px; flex-shrink: 0; }
+.room-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.online-table-status { width: calc(100% - 32px); max-width: var(--content-width); margin: 0 auto; }
+.online-table-status .network-toolbar { margin: 8px 0; }
