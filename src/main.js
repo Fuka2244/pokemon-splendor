@@ -263,7 +263,7 @@ function render() {
       <section class="self-panel">${trainerMarkup()}</section>
       <details class="log panel" ${logExpanded ? "open" : ""}><summary>对局记录 <span>${game.log.length} 条</span><small>${safeText(message)}</small></summary><div class="log-entries">${game.log.slice().reverse().map((entry, index) => `<p class="${index === 0 ? "latest" : ""}">${safeText(entry)}</p>`).join("")}</div></details>
     </div>${inspectorMarkup()}${gameOverMarkup()}
-    <footer><span>宝可梦璀璨宝石 · 房间 ${room.id}</span><a class="hub-return" href="./" target="_blank" rel="noopener noreferrer">桌游大厅 ↗（新标签页）</a><span>18 分触发最终轮</span></footer>`;
+    <footer><span>宝可梦璀璨宝石 · 房间 ${room.id}</span><span>18 分触发最终轮</span></footer>`;
   if (onlineMode && !canAct()) {
     const blocked = new Set(["ball", "take-two", "return-ball", "confirm-balls", "confirm-return", "capture", "reserve", "reserve-deck", "capture-special", "evolve", "skip-evolution", "focus-evolution", "deck"]);
     document.querySelectorAll("[data-action]").forEach((button) => { if (blocked.has(button.dataset.action)) button.disabled = true; });

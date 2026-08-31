@@ -1,13 +1,9 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "pokemon-board-game",
-  "account_id": "7f054ffaace479426b3b57913b16630d",
+  "name": "pokemon-splendor",
   "main": "worker/index.js",
   "compatibility_date": "2026-08-27",
   "workers_dev": true,
-  "routes": [
-    { "pattern": "spldzy.dpdns.org", "custom_domain": true }
-  ],
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",

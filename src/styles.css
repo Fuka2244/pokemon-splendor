@@ -23,8 +23,6 @@
 }
 * { box-sizing: border-box; }
 body { margin: 0; min-width: 320px; }
-.hub-return { color: var(--accent); text-underline-offset: 3px; }
-.hub-return:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
 button { font: inherit; color: inherit; cursor: pointer; border: 1px solid var(--line); border-radius: 6px; background: var(--panel); padding: 8px 12px; transition: transform 180ms ease, border-color 180ms ease, background-color 180ms ease, box-shadow 180ms ease; }
 button:hover:not(:disabled) { border-color: var(--accent); background-color: var(--accent-soft); }
 button:focus-visible, summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }

@@ -43,7 +43,7 @@ async function connect(identity) {
 }
 
 try {
-  for (const [path, content] of [["/", "桌游小馆"], ["/pokemon.html", "./main.js"]]) {
+  for (const [path, content] of [["/", "宝可梦璀璨宝石"], ["/pokemon.html", "./main.js"]]) {
     const page = await fetch(`${base}${path}`, { signal: AbortSignal.timeout(10000) });
     assert.equal(page.status, 200, `Page unavailable: ${path}`);
     assert.ok((await page.text()).includes(content), `Wrong page: ${path}`);

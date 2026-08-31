@@ -240,7 +240,7 @@ export function createOnlineClient({ onView, onStatus }) {
     if (client.view?.game) return;
     const view = client.view;
     const me = view?.members[view.viewerTrainerIndex];
-    app.innerHTML = `<section class="online-lobby panel"><a href="./">← 桌游大厅</a><p class="online-eyebrow">POKÉMON SPLENDOR · 好友联机</p><h1>宝可梦璀璨宝石</h1>${view ? `
+    app.innerHTML = `<section class="online-lobby panel"><p class="online-eyebrow">POKÉMON SPLENDOR · 好友联机</p><h1>宝可梦璀璨宝石</h1>${view ? `
       <p>准备室 · ${view.members.length} / ${view.capacity} 人</p>${toolbar()}
       <ul class="room-members">${view.members.map((player) => `<li><b>${escapeHTML(player.name)}${player.playerId === me.playerId ? "（你）" : ""}</b><span>${player.playerId === view.hostId ? "房主 · " : ""}${player.online ? "在线" : "离线"} · ${player.ready ? "已准备" : "未准备"}</span></li>`).join("")}</ul>
       <div class="room-actions"><button class="primary" data-network="ready" ${client.busy || !client.connected ? "disabled" : ""}>${me.ready ? "取消准备" : "准备好了"}</button>${me.playerId === view.hostId ? `<button data-network="start" ${client.busy || !client.connected || view.members.length < 2 || !view.members.every((player) => player.ready) ? "disabled" : ""}>开始对局</button>` : ""}<button data-network="leave" ${client.busy || !client.connected ? "disabled" : ""}>退出房间</button></div><p class="online-help">至少两人，全部准备后由房主开局。断线保留席位，不会自动代替玩家行动。</p>` : session ? `
