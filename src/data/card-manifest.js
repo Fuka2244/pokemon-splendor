@@ -1,21 +1,21 @@
 import { userConfirmedPokemonCards } from "./user-confirmed-pokemon-cards.js";
 
 export const ballTypes = [
-  { id: "red", label: "红白球", image: "./assets/source-cards/icons/icon-004.png", color: "#e55353" },
-  { id: "blue", label: "蓝红球", image: "./assets/source-cards/icons/icon-005.png", color: "#44a9d2" },
-  { id: "yellow", label: "黄蓝球", image: "./assets/source-cards/icons/icon-001.png", color: "#dfbf38" },
-  { id: "black", label: "黑黄球", image: "./assets/source-cards/icons/icon-006.png", color: "#2d2d2d" },
-  { id: "pink", label: "粉紫球", image: "./assets/source-cards/icons/icon-003.png", color: "#e6a6cf" },
+  { id: "red", label: "红白球", image: "./assets/web-cards/icons/icon-004.webp", color: "#e55353" },
+  { id: "blue", label: "蓝红球", image: "./assets/web-cards/icons/icon-005.webp", color: "#44a9d2" },
+  { id: "yellow", label: "黄蓝球", image: "./assets/web-cards/icons/icon-001.webp", color: "#dfbf38" },
+  { id: "black", label: "黑黄球", image: "./assets/web-cards/icons/icon-006.webp", color: "#2d2d2d" },
+  { id: "pink", label: "粉紫球", image: "./assets/web-cards/icons/icon-003.webp", color: "#e6a6cf" },
 ];
 
 export const masterBall = {
   id: "master",
   label: "万能球",
-  image: "./assets/source-cards/icons/icon-002.png",
+  image: "./assets/web-cards/icons/icon-002.webp",
   color: "#b45aa5",
 };
 
-const source = (group, file) => `./assets/source-cards/${group}/${file}.png`;
+const source = (group, file) => `./assets/web-cards/${group}/${file}.webp`;
 
 const initiallyConfirmedPokemonCards = [
   {
@@ -275,4 +275,4 @@ export const pendingSourceCards = [
   ...Array.from({ length: 35 }, (_, index) => `assets/source-cards/tier-1/tier-1-${String(index + 1).padStart(3, "0")}.png`),
   ...Array.from({ length: 30 }, (_, index) => `assets/source-cards/tier-2/tier-2-${String(index + 1).padStart(3, "0")}.png`),
   ...Array.from({ length: 15 }, (_, index) => `assets/source-cards/tier-3/tier-3-${String(index + 1).padStart(3, "0")}.png`),
-].filter((path) => !pokemonCards.some((card) => card.image.endsWith(path.replace("assets/", "./assets/"))));
+].filter((path) => !pokemonCards.some((card) => card.image.endsWith(path.replace("assets/source-cards/", "./assets/web-cards/").replace(/\.png$/, ".webp"))));

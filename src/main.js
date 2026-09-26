@@ -98,7 +98,7 @@ function cardMarkup(card, { variant = "market" } = {}) {
   const available = canAct() && game.phase === "action" && quote.canCapture;
   const status = onlineMode && !canAct() ? "等待你的回合 · 点击查看" : available ? "可捕捉" : reserved ? "暂不可捕捉 · 点击查看" : game.phase === "action" ? "暂不可捕捉 · 点击查看 / 预留" : "点击查看卡牌";
   return `<button class="pokemon-card ${reserved ? "reserved-card" : ""} ${available ? "available" : "unavailable"} ${selectedCardId === card.id ? "selected" : ""}" data-action="card" data-id="${card.id}" aria-pressed="${selectedCardId === card.id}" aria-label="${reserved ? "预留宝可梦 " : ""}${card.name}，${status}" title="${card.name} · ${status}">
-    <img class="pokemon-image" src="${card.image}" alt="${card.name}">
+    <img class="pokemon-image" src="${card.image}" alt="${card.name}" loading="lazy" decoding="async">
   </button>`;
 }
 
@@ -118,7 +118,7 @@ function specialCardMarkup(type, card) {
   const eligible = canAct() && game.phase === "action" && listSpecialCaptureOptions(game).some((option) => option.type === type && option.card.id === card.id);
   const selected = selectedSpecial?.type === type && selectedSpecial?.id === card.id;
   return `<button class="rare-card ${eligible ? "eligible" : "unavailable"} ${selected ? "selected" : ""}" data-action="special-card" data-type="${type}" data-id="${card.id}" aria-pressed="${selected}" aria-label="${card.name}，${eligible ? "可捕捉" : "暂不可捕捉，点击查看条件"}" title="${eligible ? "可捕捉" : "点击查看捕捉条件"}">
-    <img class="rare-image" src="${card.image}" alt="${card.name}">
+    <img class="rare-image" src="${card.image}" alt="${card.name}" loading="lazy" decoding="async">
   </button>`;
 }
 

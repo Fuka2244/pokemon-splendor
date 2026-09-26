@@ -24,13 +24,13 @@ test("ordinary cards each provide exactly one colored permanent discount", () =>
   }
 });
 
-test("ordinary cards use one unique local PNG image each", () => {
+test("ordinary cards use one unique local WebP image each", () => {
   // Catches: duplicated mappings or entries that still point outside the imported asset directory.
   const imagePaths = pokemonCards.map((card) => card.image);
 
   assert.equal(new Set(imagePaths).size, 80);
   for (const image of imagePaths) {
-    assert.match(image, /^\.\/assets\/source-cards\/tier-[123]\/tier-[123]-\d{3}\.png$/);
+    assert.match(image, /^\.\/assets\/web-cards\/tier-[123]\/tier-[123]-\d{3}\.webp$/);
   }
 });
 
