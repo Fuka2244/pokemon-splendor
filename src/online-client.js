@@ -213,9 +213,14 @@ export function createOnlineClient({ onView, onStatus }) {
     }
   }
 
+  function commandId() {
+    const bytes = crypto.getRandomValues(new Uint8Array(16));
+    return Array.from(bytes, (byte) => byte.toString(16).padStart(2, "0")).join("");
+  }
+
   async function command(payload) {
     if (client.busy || !client.connected || !client.view) return;
-    pending = { ...payload, id: crypto.randomUUID(), revision: client.view.revision };
+    pending = { ...payload, id: commandId(), revision: client.view.revision };
     save();
     await submitPending();
   }

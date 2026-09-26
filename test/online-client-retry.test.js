@@ -9,7 +9,7 @@ const identity = { roomId, playerId: "host", credential: "test-seat" };
 const view = { revision: 1, game: {}, members: [], viewerTrainerIndex: 0 };
 const response = (status, value = view) => ({ ok: status < 400, status, json: async () => value });
 
-function harness({ state = () => response(200), submit = () => response(200), offline = false, pending = null, socketMode = "stable" } = {}) {
+function harness({ state = () => response(200), submit = () => response(200), offline = false, pending = null, socketMode = "stable", cryptoApi = crypto } = {}) {
   let now = 0;
   let sequence = 0;
   const timers = new Map();
@@ -39,7 +39,7 @@ function harness({ state = () => response(200), submit = () => response(200), of
   class Clock extends Date { static now() { return now; } }
   const navigator = { onLine: !offline };
   const context = vm.createContext({
-    URL, URLSearchParams, AbortController, crypto, Date: Clock,
+    URL, URLSearchParams, AbortController, crypto: cryptoApi, Date: Clock,
     location: { search: "", href: "http://localhost/pokemon.html", protocol: "http:" },
     history: { replaceState() {} }, navigator,
     document: { querySelector: () => app, addEventListener: (type, fn) => events.set(type, fn) },
@@ -75,6 +75,16 @@ function harness({ state = () => response(200), submit = () => response(200), of
   client.start();
   return { client, requests, sockets, advance, flush, click, storage, events, navigator };
 }
+
+test("commands work on HTTP origins without crypto.randomUUID", async () => {
+  const h = harness({ cryptoApi: { getRandomValues: crypto.getRandomValues.bind(crypto) } });
+  await h.advance(0);
+  assert.equal(h.client.connected, true);
+  await h.client.command({ type: "READY", ready: true });
+  const commands = h.requests.filter(({ path }) => path.endsWith("/command"));
+  assert.equal(commands.length, 1);
+  assert.match(JSON.parse(commands[0].options.body).id, /^[0-9a-f]{32}$/);
+});
 
 test("persistent service failure stops automatic requests after a bounded recovery budget", async () => {
   const h = harness({ state: () => response(503, { message: "Unavailable" }) });

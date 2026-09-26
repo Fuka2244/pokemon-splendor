@@ -1,0 +1,23 @@
+[Unit]
+Description=Combined board game homepage
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/var/www/game-home
+Environment=HOME_HOST=0.0.0.0
+Environment=HOME_PORT=80
+ExecStart=/usr/bin/python3 /var/www/game-home/server.py
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=true
+AmbientCapabilities=CAP_NET_BIND_SERVICE
+CapabilityBoundingSet=CAP_NET_BIND_SERVICE
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+
+[Install]
+WantedBy=multi-user.target
